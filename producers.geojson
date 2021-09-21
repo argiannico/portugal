@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"name": "producers1",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Producer": "Textura", "Lieu Dit": null, "Desc": "Established in 2013, founded by Marcelo Araujo under the guidance of Luis Seabra. Textura is portuguese for \"texture\". The winery is nestled along the Serra da Estrela. Portugal's tallest inland mountain range.", "link": "https:\/\/grandcruselections.com\/italy" }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -7.56923795565538, 40.508779367820836 ] ] } },
+{ "type": "Feature", "properties": { "Producer": "Muxagat", "Lieu Dit": null, "Desc": "Established in 2002, cellar and vineyards based in Meda. Owned and operated by Susana Lopes with consultant Luis Seabra", "link": "https:\/\/grandcruselections.com\/italy" }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -7.259260391960125, 40.965840344984912 ] ] } },
+{ "type": "Feature", "properties": { "Producer": "Pormenor", "Lieu Dit": null, "Desc": "Established in 2013 by José Silva, Miguel Cardozo and Pedro Coelho. Pormenor translates to \"details\". The reds are sourced from Portgual's Cima Corgo, the whites Douro Superior.", "link": "https:\/\/grandcruselections.com\/italy" }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -7.586218995088036, 41.126213964272523 ] ] } },
+{ "type": "Feature", "properties": { "Producer": "V Puro", "Lieu Dit": null, "Desc": "Estalbished by Nuno Mira do Ó and João Soares. Bairrada has a more Atlantic influence, with more prominece in limestone.", "link": "https:\/\/grandcruselections.com\/italy" }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -8.426066507843851, 40.384241587255254 ] ] } }
+]
+}
