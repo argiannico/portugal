@@ -93,12 +93,12 @@ body { margin: 0; padding: 0; }
           var thisFeature = e.features[0]
            popup.setLngLat([e.lngLat.lng, e.lngLat.lat]).setHTML(`
            <h3>${thisFeature.properties['DOC']}</h3>
-           <p>${thisFeature.properties['Sub Region']}</p>
             </div>
           `).addTo(map)
           }
         });
 
+        // <p>${thisFeature.properties['Sub Region']}</p> - to add subregion put this below the DOC line 
       
             map.on('mousemove', 'portugal-fill', (e) => {
               if (e.features.length > 0) {
@@ -163,7 +163,7 @@ body { margin: 0; padding: 0; }
 								console.log(thisFeature)
                 popup.setLngLat([e.lngLat.lng, e.lngLat.lat]).setHTML(`
                   <div class="my-style">
-                    <img src="https://github.com/argiannico/portugal/blob/e00515a54642e628ad2238e2b8c2f2f035765000/gcs-logo.png" width="25" height="25"/>
+                    <img src="img/gcs-logo.png" width="25" height="25"/>
 										<h3>${thisFeature.properties['Producer']}</h3>
                     <p>${thisFeature.properties['Desc']}</p>
 										<a target="_blank" href="${thisFeature.properties['link']}"><button type="button" class="btn btn-light btn-sm">producer profile</button></a>
@@ -180,7 +180,7 @@ body { margin: 0; padding: 0; }
 								console.log(thisFeature)
                 popup.setLngLat([e.lngLat.lng, e.lngLat.lat]).setHTML(`
                   <div class="my-style">
-                    <img src="https://github.com/argiannico/portugal/blob/e00515a54642e628ad2238e2b8c2f2f035765000/gcs-logo.png" width="25" height="25"/>
+                    <img src="img/gcs-logo.png" width="25" height="25"/>
 										<h3>${thisFeature.properties['Producer']}</h3>
                     <p>${thisFeature.properties['Desc']}</p>
 										<a target="_blank" href="${thisFeature.properties['link']}"><button type="button" class="btn btn-light btn-sm">producer profile</button></a>
