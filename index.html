@@ -163,10 +163,10 @@ body { margin: 0; padding: 0; }
 								console.log(thisFeature)
                 popup.setLngLat([e.lngLat.lng, e.lngLat.lat]).setHTML(`
                   <div class="my-style">
-                    <img src="github.com/argiannico/portugal/blob/40d8a6b6c094f83d907b0dbe177b4cb9c731824e/gcs-logo.png" width="25" height="25"/>
-										<h3>${thisFeature.properties['Producer']}</h3>
-                    <p>${thisFeature.properties['Desc']}</p>
-										<a target="_blank" href="${thisFeature.properties['link']}"><button type="button" class="btn btn-light btn-sm">producer profile</button></a>
+                    <img src="img/gcs-logo.png" width="25" height="25"/>
+		<h3>${thisFeature.properties['Producer']}</h3>
+                 <p>${thisFeature.properties['Desc']}</p>
+		<a target="_blank" href="${thisFeature.properties['link']}"><button type="button" class="btn btn-light btn-sm">producer profile</button></a>
 									</div>
                 `).addTo(map)
 
@@ -181,7 +181,7 @@ body { margin: 0; padding: 0; }
                 const popup = new mapboxgl.Popup({ closeOnClick: false })
                 popup.setLngLat([e.lngLat.lng, e.lngLat.lat]).setHTML(`
                   <div class="my-style">
-                    <img src="github.com/argiannico/portugal/blob/40d8a6b6c094f83d907b0dbe177b4cb9c731824e/gcs-logo.png" width="25" height="25"/>
+                    <img src="img/gcs-logo.png" width="25" height="25"/>
 										<h3>${thisFeature.properties['Producer']}</h3>
                     <p>${thisFeature.properties['Desc']}</p>
 										<a target="_blank" href="${thisFeature.properties['link']}"><button type="button" class="btn btn-light btn-sm">producer profile</button></a>
